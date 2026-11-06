@@ -1,0 +1,67 @@
+{
+    "video_metadata": {
+        "video_path": "input\\input_video.mp4",
+        "width": 848,
+        "height": 478,
+        "fps": 24.99755297881089,
+        "total_frames": 7358,
+        "duration": 294.3488111111111
+    },
+    "durations": {
+        "total_video_duration": 294.35,
+        "classified_duration": 293.15,
+        "active_duration": 110.61,
+        "away_duration": 182.54,
+        "unknown_duration": 1.2,
+        "active_percentage": 37.58,
+        "away_percentage": 62.01,
+        "unknown_percentage": 0.41,
+        "interval_count": 3
+    },
+    "timeline_intervals": [
+        {
+            "interval_id": 1,
+            "status": "UNKNOWN",
+            "start_frame": 0,
+            "end_frame": 29,
+            "start_time": 0.0,
+            "end_time": 1.1601135528978286,
+            "duration": 1.2,
+            "start_cctv_time": "2026-06-18 09:34:30",
+            "end_cctv_time": "2026-06-18 09:34:30"
+        },
+        {
+            "interval_id": 2,
+            "status": "ACTIVE",
+            "start_frame": 30,
+            "end_frame": 2794,
+            "start_time": 1.2001174685149951,
+            "end_time": 111.77094023436321,
+            "duration": 110.61,
+            "start_cctv_time": "2026-06-18 09:34:31",
+            "end_cctv_time": "2026-06-18 09:36:21"
+        },
+        {
+            "interval_id": 3,
+            "status": "AWAY",
+            "start_frame": 2795,
+            "end_frame": 7357,
+            "start_time": 111.81094414998037,
+            "end_time": 294.30880719549396,
+            "duration": 182.54,
+            "start_cctv_time": "2026-06-18 09:36:21",
+            "end_cctv_time": "2026-06-18 09:39:24"
+        }
+    ],
+    "diagnostics": {
+        "tesseract_available": false,
+        "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+        "base_cctv_datetime": "2026-06-18 09:34:30",
+        "crop_box": {
+            "ymin": 20,
+            "xmin": 0,
+            "ymax": 45,
+            "xmax": 260
+        }
+    }
+}
